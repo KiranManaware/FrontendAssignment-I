@@ -42,3 +42,43 @@ ul li a{
    text-decoration: none; 
    border-bottom: 1px solid black;
 }
+
+/* responsive code  */
+@media (max-width:768px) {
+    .maincontainer{
+        height: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    .center{
+        flex-direction: column;
+        /* border:1px solid red; */
+        padding: 20px;
+
+    }
+    .leftchild{
+        width: 100%;
+    }
+    .rightchild{
+        width: 100%;
+    }
+}
+@media (max-width:480px) {
+    .maincontainer{
+        padding-bottom: 50px;
+    }
+    h1{
+        font-size: 3rem;
+    }  
+    h2{
+        font-size: 2rem;
+        text-align: center;
+    } 
+    h3{
+        font-size: 2rem;
+    }
+    ul li a{
+        font-size: 1rem;
+    }
+}
