@@ -45,9 +45,7 @@ ul li a{
 
 /* responsive code  */
 @media (max-width:768px) {
-    .maincontainer{
-        height: auto;
-    }
+   
     h1{
         text-align: center;
     }
